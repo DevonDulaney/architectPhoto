@@ -1,0 +1,206 @@
+
+#container {
+    overflow:auto;}
+
+
+div.logo {
+    display:inline-block;
+    margin-left: 10%;
+    padding: 15px;
+}
+img#logo {
+    display: block;
+    margin: auto;
+    float: left;
+    size: 200%;
+}
+
+div.call {display: block;
+    float:right;
+    padding: 20px;
+    margin-right: 15%;
+}
+
+img#callToday {
+    display:block;
+    float: right;
+    margin-block-start: 0vw;
+    size: auto;
+}
+
+div.email{
+    display: block;
+    transform:translateX(70vw);
+    transform: translateY(15);
+    padding:10px;
+    box-sizing: border-box;
+
+}
+
+.menu
+{   position: absolute;
+    width: 100vw;
+    background: #000;
+    padding: 0 100px;
+    box-sizing: border-box;
+
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;}
+
+
+#topNav {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+nav ul{ 
+    margin:0;
+    padding:0;   
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {  
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px 20px;
+    text-decoration: none;
+}  
+
+nav ul li a:hover {
+    background:white;
+    color: black;
+    
+}
+
+
+nav ul li ul {
+    display: block;
+    background: #000;
+    min-width: 260px;
+    max-width: 260px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: .25s;
+    transform: translateY(40px);
+    border: #fff;
+    border-width: 10px;
+}
+
+
+nav ul li:hover li{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+nav ul li ul li {
+    display: block;
+    color: white;
+    margin-top: 1px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+nav ul li ul li:hover {
+    font-weight: bold;
+}
+
+nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+nav ul li ul li a {
+    padding: 20px;
+    text-transform: none;
+    font-weight: normal;
+    
+}
+
+nav ul li ul li a:hover {
+    font-weight: bold;
+}
+
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: absolute;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+        position: relative;
+          max-height: 0px;
+          background: #000;
+    }
+
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          text-align: center;
+          visibility: hidden;
+          opacity: 0;
+    }
+
+    .showing {
+        max-height: 42em;
+        visibility: visible;
+        opacity: 1;
+  }
+   
+    .hidden {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .residential {
+        max-height: 42em;
+        visibility: visible;
+        opacity: 1;
+    }
+
+    nav ul li ul{
+        background: #000;
+        display:block;
+        margin-left: 20%;
+        align-items: center;
+        list-style: none;
+    }
+
+    nav ul li ul li:hover {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .dropdown{
+        display: block;
+        width: 100%;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+ 
+    }

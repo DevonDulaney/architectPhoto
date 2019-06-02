@@ -1,0 +1,38 @@
+<!doctype = html>
+<html>
+        <head>
+                <title>Celebrity Estate Photography | West Palm Beach</title>
+            </head>
+
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="">Residential</a></li>
+                        <li><a href="">Commerical</a></li>
+                        <li><a href="">Celebrity Estates</a></li>
+                        <li><a href="">Published</a><li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+        <body>
+                <div class= slideshow id=residential>
+                    <img source=""> <alt></alt> </img> 
+                    <img source=""> <alt></alt> </img>
+                    <img source=""> <alt></alt> </img> 
+                    <img source=""> <alt></alt> </img>
+                    <img source=""> <alt></alt> </img> 
+                    <img source=""> <alt></alt> </img>
+                </div>
+
+            <footer> 
+        
+            </footer>
+        </body>
+            
+
+
+
+</html>

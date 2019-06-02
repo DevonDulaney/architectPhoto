@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Architectural and Interior Design Photographer | West Palm Beach</title>
+    <link rel="stylesheet" href="assets/styles/topNav.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+</head>
+
+ <body>
+  
+    <div id="container">
+            <header>
+                    <div class="menu-icon">
+                            <i class="fa fa-bars fa-2x"></i>
+                      </div>
+        <div class="logo">
+        <img id="logo" src="assets/images/Arch-Photo-Logo-Web-1-1.png">
+        </div>
+        <div class="call">
+        <img id="callToday" src="assets/images/call-today-1.png">
+        </div>
+        <div class="email">
+            <button>email us</button>
+        </div>
+        <div class="menu">
+                <nav class="siteWide" id="topNav">
+                    <ul>
+                        <li>
+                            <a href="#" title="Website Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" title="About Daniel Newcomb">Daniel</a>
+                        </li>
+                        <li>
+                            <a href="#"  title="Residential">Residential</a>
+                                <ul id="residential">
+                                <li><a href="#" title="Exteriors">Exteriors</a></li>
+                                <li><a href="#" title="Living Rooms">Living Rooms</a></li>
+                                <li><a href="#" title="Bedrooms">Bedrooms </a></li>
+                                <li><a href="#" title="Bathrooms">Bathrooms</a></li>
+                                <li><a href="#" title="Kitchens">Kitchens</a></li>
+                                <li><a href="#" title="Dining Rooms">Dining Rooms</a></li>
+                                <li><a href="#" title="Vignettes, Stairways, Foyers, & Details">Vignettes, Stairways, Foyers, & Details</a></li>
+                                <li><a href="#" title="Drone Aerials">Drone Aerials</a></li>
+                                </ul>
+                        </li>
+                        <li><a href="#"  title="Commercial">Commerical</a>
+                            <ul class="commercial">
+                                <li> <a href="#" title="Hard Rock Hotel & Casino">Hard Rock Hotel & Casino</a></li>
+                                <li> <a href="#" title="Hospitality">Hospitality</a></li>
+                                <li> <a href="#" title="Automotive Dealerships">Automotive Dealerships</a></li>
+                                <li> <a href="#" title="Aviation">Aviation</a></li>
+                                <li> <a href="#" title="Commercial, Casino, Retail">Commercial, Casino, & Retail</a></li>
+                            </ul>
+                        </li>   
+                        <li><a href="#" title="Celebrities">Celebrities</a>
+                             <ul class="celebrities">
+                                <li> <a href="#" title="Gary Player Estate">Gary Player Estate</a></li>
+                                <li> <a href="#" title="Kenny Rogers Estate">Kenny Rogers Estate</a></li>
+                                <li> <a href="#" title="Tommy Hilfiger Estate">Tommy Hilfiger Estate</a></li>
+                                <li> <a href="#" title="Stephen Tulloch">Stephen Tulloch (NFL)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" title="Published Photos">Published Photos</a><li>
+                        <li><a href="#" title="Testimonials">Testimonial</a></li>
+                        <li><a href="#" title="Contact">Contact</a></li>
+                    </ul>
+                </nav>
+        </div>
+        </header>
+
+    
+
+    <div id=mainSlides>
+        <img source="#"> <alt></alt> </img> 
+        <img source="#"> <alt></alt> </img>
+        <img source="#"> <alt></alt> </img> 
+        <img source="#"> <alt></alt> </img>
+        <img source="#"> <alt></alt> </img> 
+        <img source="#"> <alt></alt> </img>
+    </div>
+
+        
+    <h1>Architectual and Interior Design Photography INC</h1>
+        <p>Founded in xxxx, AP...</p>
+        
+
+    <footer> 
+        <p>Copyright Architect Photography 2019</p>
+        
+    </footer>
+    </div>
+
+    <script> 
+        // Menu-toggle button
+
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+                  $("nav ul li").toggleClass("showing");
+                  $("nav ul li ul li").hide();
+               
+            });
+           });
+         //  $("a[title|='Residential']").on("click",function(){
+          //    $("nav ul li ul li").show();
+              
+               
+         //  });
+
+           $("a[title|='Residential']").on("click",function(){
+              $("nav ul li ul li ").toggle("");
+           });
+    </script>
+
+<script>
+
+       // $(document).ready(function(){
+       //   $("a[title|='Residential']").on("hover",function() {
+       //       $("nav ul li ul li a").toggleClass("dropdown");})
+
+       //     $("a[title|='Commercial']").on("hover",function() {
+       //       $("nav ul li ul li a").toggleClass("dropdown"); })
+              
+       //       $("a[title|='Celebrities']").on("hover",function() {
+       //       $("nav ul li ul li a").toggleClass("dropdown");})
+       //  }); 
+        </script>
+</body>
+</html>
